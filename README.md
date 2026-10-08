@@ -286,6 +286,7 @@ For this assignment, processed file information is stored in memory. This keeps 
 - Additional geospatial file formats
 - Interactive map visualization of uploaded features
 - Persistent database storage
+- Include the calculated measurement of each feature in the file information response.
 
 ---
 
@@ -336,3 +337,21 @@ uvicorn app.main:app --reload
 ```bash
 http://127.0.0.1:8000/docs 
 ```
+
+## Screenshots
+
+### Endpoints
+
+![REST APIs Endpoints](docs/screenshots/api.png)
+
+### File Upload
+
+![File Upload](docs/screenshots/upload.png)
+
+### Information 
+
+![Information about uploaded file](docs/screenshots/get_info.png)
+
+### Measurement
+
+![Measurements](docs/screenshots/measurement.png)
